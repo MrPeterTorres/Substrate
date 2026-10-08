@@ -1,0 +1,88 @@
+# ============================================================
+# Unreal Engine .gitignore (UE5)
+# Place at the project root, next to the .uproject file.
+# ============================================================
+
+# --- Generated build output (rebuilt from source) ---
+Binaries/
+Intermediate/
+DerivedDataCache/
+Build/*
+!Build/**/*.ico
+!Build/**/*.png
+
+# --- Local editor state and logs ---
+Saved/
+# Uncomment the next line instead of "Saved/" if you want to keep
+# project-wide config overrides stored in Saved/Config:
+# !Saved/Config/
+
+# --- Plugin build output (keep plugin source, drop its artifacts) ---
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# --- IDE / project files (regenerate via "Generate Project Files") ---
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+.ignore
+
+# --- Compiled / debug artifacts ---
+*.obj
+*.o
+*.pdb
+*.dll
+*.exe
+*.lib
+*.a
+*.so
+*.dylib
+*.ipa
+*.apk
+*.app
+
+# --- Packaged builds ---
+Releases/
+Packaged/
+WindowsNoEditor/
+Windows/
+
+# --- Cooked content ---
+Cooked/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Temp / backup files ---
+*.tmp
+*.bak
+*~
+
+# --- Claude Code (personal) ---
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Marketplace / downloaded content — reinstall from Fab, don't version
+Content/Adventure_Pack/
+Content/Fire_VDB/
+Content/Scene_Banquet/
+Content/ParagonCountess/
+Content/Explosions/
+Content/Downtown_Alley/
+Content/SciFi_BioLaboratory/
+Content/sA_Megapack_v1/
+Content/Megascans/
+Content/M5VFXVOL2/
+Content/Fab/
+Content/MSPresets/
+Content/__ExternalActors__/Scene_Banquet/
